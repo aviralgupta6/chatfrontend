@@ -81,7 +81,15 @@ function Chat() {
                 </Fragment>
               );
             })}
-            <div ref={divRef}></div>
+            <div ref={divRef}>
+              {!sentMessage.length ? (
+                <div className= "center-message">
+                  No Chat History Found
+                </div>
+              ) : (
+                ""
+              )}
+            </div>
           </div>
           <div />
           <div className="chat-message clearfix">
