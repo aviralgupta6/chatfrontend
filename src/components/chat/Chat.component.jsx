@@ -92,7 +92,7 @@ function Chat() {
               name="message-to-send"
               id="message-to-send"
               placeholder="Type your message"
-              rows="3"
+              // rows="3"
               ref={message}
             ></textarea>
             <i className="fa fa-file-o"></i> &nbsp;&nbsp;&nbsp;
