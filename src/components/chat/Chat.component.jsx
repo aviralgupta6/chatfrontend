@@ -1,11 +1,8 @@
-import React from "react";
-import { useState } from "react";
+import React, { useEffect, Fragment, useRef, useState } from "react";
 import "./chat.styles.css";
 import hackerBot from "../../assets/HackerBot.png";
-import { useRef } from "react";
-import { useEffect } from "react";
 import moment from "moment";
-import { Fragment } from "react";
+
 function Chat() {
   const [chatWith] = useState("Mirror Bot");
   const divRef = useRef(null);
@@ -83,9 +80,7 @@ function Chat() {
             })}
             <div ref={divRef}>
               {!sentMessage.length ? (
-                <div className= "center-message">
-                  No Chat History Found
-                </div>
+                <div className="center-message">No Chat History Found</div>
               ) : (
                 ""
               )}
