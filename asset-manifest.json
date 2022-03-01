@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chatfrontend/static/css/main.f51e14d6.css",
+    "main.js": "/chatfrontend/static/js/main.fc7d56a2.js",
+    "static/js/787.2d121a58.chunk.js": "/chatfrontend/static/js/787.2d121a58.chunk.js",
+    "static/media/HackerBot.png": "/chatfrontend/static/media/HackerBot.dd930ee4eaf9413872b4.png",
+    "index.html": "/chatfrontend/index.html",
+    "main.f51e14d6.css.map": "/chatfrontend/static/css/main.f51e14d6.css.map",
+    "main.fc7d56a2.js.map": "/chatfrontend/static/js/main.fc7d56a2.js.map",
+    "787.2d121a58.chunk.js.map": "/chatfrontend/static/js/787.2d121a58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f51e14d6.css",
+    "static/js/main.fc7d56a2.js"
+  ]
+}
