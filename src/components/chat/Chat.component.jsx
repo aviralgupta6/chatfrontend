@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import moment from "moment";
 import { Fragment } from "react";
-function Chat(props) {
+function Chat() {
   const [chatWith] = useState("Mirror Bot");
   const divRef = useRef(null);
   const [sentMessage, setTextMessage] = useState([]);
